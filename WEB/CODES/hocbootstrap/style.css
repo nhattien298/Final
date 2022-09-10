@@ -1,0 +1,20 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.main{
+    width:1000px;
+    height:500px;
+    text-align:center;
+    padding-top:300px;
+    background-color:#f5f5f5;
+    margin:auto;
+}
+.btn1{
+    background-color:red;
+    color:white;
+    margin-bottom: 50px;
+}
+.btn-demo{
+    font-family:tahoma;
+}

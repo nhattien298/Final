@@ -1,0 +1,1 @@
+Chép file vào thư mục cài phần mềm IVMS 4200: C:\Program Files (x86)\iVMS-4200 Site\iVMS-4200 Client\Client

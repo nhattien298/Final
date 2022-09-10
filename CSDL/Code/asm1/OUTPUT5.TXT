@@ -1,0 +1,3 @@
+Binary Search
+Input value : 1.0
+Index of fist element : 0

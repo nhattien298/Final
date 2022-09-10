@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <script>
+        var s = "nhattien try to learn javascript";
+
+        console.log(s);
+        var s2 =" tue  man dang khoc"
+        var s3= s+ s2;
+        console.log(s3)
+        var s4= s3.concat(s)
+        console.log(s4)
+        console.log(s.length)
+        // tim kiem
+        var index =s.indexOf('to');
+        console.log(index)
+        var lastindex = s.lastIndexOf('t');
+        console.log(lastindex);
+        var catchuoi=s.substring(3,9)
+        console.log(catchuoi)
+
+        // string -> mang
+        var arraystr = s.split(' ')
+        console.log(arraystr)
+        for (i =0 ; i < arraystr.length; i++){
+            console.log(arraystr[i])
+        }
+        // thay the
+        var thaythe = s.replace('try', 'tue lam')
+        console.log(thaythe)
+    </script>
+</body>
+</html>

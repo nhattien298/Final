@@ -1,0 +1,59 @@
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+  }
+.logo{
+    max-width:100%;
+    margin-top:-10px;
+}
+a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
+}
+a:hover{
+    /* background-color:blueviolet; */
+    color:red;
+}
+p-2{
+    text-align: center;
+    vertical-align: middle;
+}
+
+h4{
+    text-align: center;
+}
+p{
+    font-family: 'Corinthia', cursive;
+}
+.bg-1{
+    background-color:#0d6efd;
+    text-align: center;
+}
+
+.bg-2{
+    background-color:#8b44e6;
+    text-align: center;
+}
+.bg-3{
+    background-color:#198754;
+    text-align: center;
+}
+.bg-4{
+    background-color:#0dcaf0;
+    text-align: center;
+}
+.bg-5{
+    background-color:#005e7c;
+    text-align: center;
+}
+[class*="bg-"]:hover{
+    background-color:white;
+    color:red;
+}
+
+
+
+/* primary : #0d6efd */

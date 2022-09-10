@@ -1,0 +1,29 @@
+@media (max-width: 992px){
+    .nav{
+        background-color:#556270;
+        width: 90%;
+        margin: auto;    
+    }
+    .banner{
+        background-image:none;
+        background-color: none;  
+    }
+    [class*=row]{
+        background-color: white;
+    }
+    #article{
+     background-color:white;}
+    .content{
+        color:black;
+        margin: auto;
+     }
+}   
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 30px;
+}
+div .grid-item{
+    display:grid;
+    grid-gap: 30px;
+}

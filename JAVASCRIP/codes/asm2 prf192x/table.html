@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="table.css">
+    <script src="table.js"></script>
+    
+</head>
+<body>
+    <div id="wrap">
+        <div id="row">
+            <p>luong co ban : <span id='lcb'>150000</span></p>
+        </div>
+        <div id="row">
+            <div class="left">ho va ten</div>
+            <div class="right">
+                <input type="text" name='' id='ten'>
+                <div id="name_err" style="color: red;"></div> 
+            </div>
+        </div>
+        <div id="row">
+            <div class="left">phong ban</div>
+            <div class="right">
+                <select name="" id="phongban">
+                    <option value="">chon phong ban</option>
+                    <option value="ban giam doc">ban giam doc</option>
+                    <option value="kinh doanh">kinh doanh</option>
+                    <option value="ke toan">ke toan</option>
+                    <option value="ky thuat">ky thuat</option>
+                </select>
+                <div id="phongban_err" style="color: red;"></div> 
+
+            </div>
+        </div>
+        <div id="row">
+            <div class="left">he so luong</div>
+            <div class="right">
+                <input type="text" name='' id='hsl'>
+            </div>
+            <div id="hsl_err1" style="color: red;"></div> 
+            <div id="hsl_err2" style="color: red;"></div> 
+
+        </div>
+    
+        <div id="row3">
+            <button id="nhap" onclick="nhapvao()">nhap</button>&NonBreakingSpace;&NonBreakingSpace;
+            <button id="tinhluong" onclick="tinhluong()">tinh luong</button>&NonBreakingSpace;&NonBreakingSpace;
+            <button id="capnhat" onclick="capnhat()"style="display: none;">cap nhat</button>
+        </div>
+        <div class="row3">
+            <table border="1" cellspacing="0" id='myTable'>
+                <th>stt</th>
+                <th>hoten</th>
+                <th>phongban</th>
+                <th>hesoluong</th>
+                <th>luong</th>
+                <th>thaotac</th>
+            </table>
+        </div>
+       
+    </div>
+</body>
+</html>

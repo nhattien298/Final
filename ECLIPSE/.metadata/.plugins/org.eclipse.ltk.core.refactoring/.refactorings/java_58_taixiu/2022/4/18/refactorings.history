@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;main.Tai&apos; to &apos;TaiXiu&apos;&#x0D;&#x0A;- Original project: &apos;java_58_taixiu&apos;&#x0D;&#x0A;- Original element: &apos;main.Tai&apos;&#x0D;&#x0A;- Renamed element: &apos;main.TaiXiu&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Tai&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;main{Tai.java[Tai" matchStrategy="1" name="TaiXiu" qualified="false" references="true" similarDeclarations="false" stamp="1650922090929" textual="false" version="1.0"/>
+</session>

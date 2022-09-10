@@ -1,0 +1,11 @@
+package vidu;
+
+import java.util.Arrays;
+
+public class Test {
+	public static void main(String[] args) {
+		String s = "xin chao moi nguoi toi la : vy nhat tien";
+		String[] aStrings = s.split(" ");
+		System.out.println(Arrays.toString(aStrings));
+	}
+}

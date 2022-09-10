@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number</title>
+</head>
+<body>
+    <script>
+        console.log(Number.MAX_VALUE)
+        console.log(Number.MIN_VALUE)
+        var x = 10;
+        var y = 10.5;
+        var tong = x+y;
+        console.log(tong);
+        var z= 10.6;
+        console.log(y+z)
+        // cong str vs number
+        var s='10';
+        var s3=x+s;
+        console.log(s3);
+        var hieu = x/s; // *,-,/
+        console.log(hieu
+        )
+        var n=NaN; // not a number
+        var s3 = x/'abc';
+        console.log('fdjhfjdkh ' + s3)
+        
+        var check= isNaN(s3)
+        console.log(check)
+        // truong hop khac
+        var check= isNaN(s) // s o day duoc tu dong convert sang number
+        console.log(check)
+        var check= isNaN('abc')// khong convert duoc sang number
+        console.log(check) 
+
+        var k = Infinity;
+
+        var thuong = 2/0
+        console.log(',,,,,,,,,,, ' + thuong)
+        console.log(typeof(NaN))
+        console.log(typeof(Infinity))
+
+        var number = new Number (10)
+        var m=10
+        if (m===number){ /// so sanh ve gia tri va kieu du lieu
+            // trong truong hop nay number la object con m la number
+            console.log('bang nhau')
+        }else{
+            console.log('khac nhau')
+        }
+        console.log(Math.PI);
+        var canbac2= Math.sqrt(9)
+        console.log(canbac2);
+        // conver chu sang so
+        var convert = parseInt('10 30 40 43') // se conver so dau tien
+        console.log(convert)
+        var convert = parseInt('asdfd 30 40 43') // so dau tien khong phai la number
+        console.log(convert)
+        // tuong tu voi float
+
+
+    </script>
+</body>
+</html>

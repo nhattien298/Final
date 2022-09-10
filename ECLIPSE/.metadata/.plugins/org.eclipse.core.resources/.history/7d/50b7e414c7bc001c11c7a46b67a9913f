@@ -1,0 +1,41 @@
+package java_36;
+
+public class Sach {
+	private String tenSachString;
+	private double giaBan;
+	private TacGia tacGia;
+	private int namXuatBan;
+	public Sach(String tenSachString, double giaBan, TacGia tacGia, int namXuatBan) {
+		
+		this.tenSachString = tenSachString;
+		this.giaBan = giaBan;
+		this.tacGia = tacGia;
+		this.namXuatBan = namXuatBan;
+	}
+	public String getTenSachString() {
+		return tenSachString;
+	}
+	public void setTenSachString(String tenSachString) {
+		this.tenSachString = tenSachString;
+	}
+	public double getGiaBan() {
+		return giaBan;
+	}
+	public void setGiaBan(double giaBan) {
+		this.giaBan = giaBan;
+	}
+	public TacGia getTacGia() {
+		return tacGia;
+	}
+	public void setTacGia(TacGia tacGia) {
+		this.tacGia = tacGia;
+	}
+	public int getNamXuatBan() {
+		return namXuatBan;
+	}
+	public void setNamXuatBan(int namXuatBan) {
+		this.namXuatBan = namXuatBan;
+	}
+	
+	
+}

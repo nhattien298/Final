@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+    <script>
+        var personA={
+            name:'tien',
+            age: 35,
+            address:'bienhoa',
+            talk : function(){
+                return this.name + " dang noi ve "+ this.address
+            },
+        }
+        console.log(personA.talk())
+        personA.city='dongnai';
+        console.log(personA.city)
+        var persond = {
+            name:'d',
+            setName: function(n){
+                this.name = n;
+            },
+            set setName2(v){
+                this.name=v
+            },
+            getName :function getName(){
+                return this.name
+            },
+            get getName2(){
+                return this.name
+            }
+            
+        }
+        // console.log(persond.name)
+        // persond.setName('nhattien')
+        // console.log(persond.name)
+        // persond.setName2 = ' tue lam'
+        // console.log(persond.name)
+        console.log(persond.getName())
+        console.log(persond.getName2)
+
+    </script>
+</body>
+</html>

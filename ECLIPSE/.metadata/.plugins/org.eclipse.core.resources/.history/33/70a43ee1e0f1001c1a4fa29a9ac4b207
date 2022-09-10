@@ -1,0 +1,10 @@
+
+public interface ICalculator {
+//  Hàm tính lương cho nhân viên
+	public double calculateSalary();
+
+	boolean sosanh(Employee e);
+
+	boolean sosanh(Manager e);
+
+}

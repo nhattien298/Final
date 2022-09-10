@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<!-- truy xuat node tung the html lay thuoc tinh -->
+<input type="text" id = 'input1' value="1" gia_tri="2" >
+<div class='mt-3' id='kq-input1'>hay qua</div>
+<!-- thay doi thuoc tinh -->
+<button class='btn ' onclick='readonly()'>set readonly</button>
+ <!-- them node vao mot node khac -->
+<div id='them_vao_day'>
+   
+
+
+</div>
+<!-- lay css thay doi css -->
+<div id="div_css" style="margin: 50px; width: 100px; height: 50px; background-color: blue;" ></div>
+
+    <script src="jquery-3.6.0.min.js" ></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script> 
+    <script type='text/javascript'>
+        var input1 = document.getElementById('input1');
+        var valure_input1 =input1.value;
+        console.log(valure_input1);
+        var gia_tri_input1 = input1.getAttribute('gia_tri');
+        console.log(gia_tri_input1);
+        var div_input1 = document.getElementById('kq-input1');
+        // var bien2 = div_input1.innerHTML;
+        // console.log(bien2)
+        div_input1.innerHTML=valure_input1
+    </script>
+    <script type="text/javascript">
+        function readonly(){
+            var input1= document.getElementById('input1');
+            input1.setAttribute('readonly',true)
+        }
+    </script>
+    <script type="text/javascript">
+        var them_vao_day = document.getElementById('them_vao_day');
+        var h1= document.createElement('h1')
+        h1.innerHTML="the h1 vua duoc them vao"
+        them_vao_day.appendChild(h1)
+    </script>
+    <script type="text/javascript">
+        var div_css=document.getElementById('div_css');
+        var css =div_css.style.margin;
+        console.log(css)
+        div_css.style.backgroundColor="red";
+    </script>
+</body>
+</html>

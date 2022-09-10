@@ -1,0 +1,17 @@
+#wrap{
+    border: 1px solid black;
+    position: absolute;
+}
+
+
+
+
+h1{
+    text-align: center;
+}
+.nhap {
+    text-align: center;
+}
+.buttons{
+    text-align: center;
+}

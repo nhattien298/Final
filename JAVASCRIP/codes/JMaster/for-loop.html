@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> for loop</title>
+</head>
+<body>
+    <script>
+        function nhattien(){
+           for (i=0; i<10; i++){
+               console.log('nhattien' + i)
+           }
+        }
+
+        function tinhgiaithua(n){
+            if (n <= 0){
+                console.log('n! = 1')
+        
+            }else{
+                var tich= 1;
+                var i =1;
+                for(i;i<=n;i++){
+                    tich*=i;
+                }
+                console.log(n +"!" + "= " + tich)
+            }
+        }
+    // do while
+    function hellodowhile(){
+        for (i=0; i<10;i++){
+                console.log('hello ' + i)
+                if (i>=5){
+                break
+                }
+            }   
+        console.log("ket thuc")
+        }
+        
+    
+       // goi ham
+       nhattien()
+       tinhgiaithua(5)
+       hellodowhile()
+    </script>
+
+    
+</body>
+</html>

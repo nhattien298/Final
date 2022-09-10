@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    h1, form, #xac, #nhap{
+    margin-left: 40%;
+    }
+   #mytable th, td {
+       border: 1px solid;
+       text-align: center;
+   }
+   #score{   
+       margin-bottom: 20px;
+   }
+   #mytable{
+       margin-bottom: 20px;
+   }
+
+</style>
+</head>
+<body>
+    <h1> Tính điểm trung bình và xét học sinh giỏi.</h1>
+    <form id="score">
+        Họ và tên :   <input id="Name" type="text">
+        <br>
+        Điểm toán :   <input id="math" type="text">
+        <br>
+        Điểm lý   :   <input id="physic" type="text">
+        <br>
+        Điểm hóa  :   <input id="chemistry" type="text">
+        <br>
+    </form>
+
+    <button id="nhap" onclick="nhapDuLieu()">Nhập</button>
+
+    <table id="mytable" width="100%">
+        <tr>
+            <th>STT</th>
+            <th>Họ Tên</th>
+            <th>Toán</th>
+            <th>Lý</th>
+            <th>Hóa</th>
+            <th>Điểm trung bình</th>
+        </tr>
+
+    </table>
+
+    <div id="xac">
+    <button onclick="dtb()" >Tính điểm trung bình</button>
+    <button onclick="hsg()" >Xác định học sinh giỏi</button>
+     </div>
+</body>
+<script src="asm2.js"></script>
+</html>

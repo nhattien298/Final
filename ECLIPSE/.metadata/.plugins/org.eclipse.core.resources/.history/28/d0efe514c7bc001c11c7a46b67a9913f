@@ -1,0 +1,17 @@
+package java_36;
+
+public class Test {
+	public static void main(String[] args) {
+		Ngay ngay1 = new Ngay(15, 5, 2021);
+		Ngay ngay2 = new Ngay(5, 9, 2011);
+		Ngay ngay3 = new Ngay(19, 10, 1921);
+		
+		TacGia tacGia1 = new TacGia("nhattien", ngay1);
+		TacGia tacGia2 = new TacGia("tue lam", ngay3);
+		TacGia tacGia3 = new TacGia("tua man", ngay2);
+		
+		Sach sach1 = new Sach("laptrinh java",	50000	, tacGia2, 2021 );
+		Sach sach2 = new Sach("laptrinh python",	150000	, tacGia1, 2011 );
+		Sach sach3 = new Sach("laptrinh c",	450000	, tacGia3, 1921 );
+	}
+}

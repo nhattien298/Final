@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if-else-statement</title>
+</head>
+<body>
+    <script>
+        // dinh nghia ham
+        function checkNumber(n){
+            if(n==0){
+                console.log('n bang khong');
+            }else if(n>0){
+                console.log('n la so duong')
+            }else{
+                console.log('n la so am')
+            }
+        }
+        function sochiahet(a){
+            if(a !=0 ){
+                console.log(' a khac khong')
+            }
+            if (a%2 == 0){
+                console.log(' a la so chan')
+
+            }else{
+                console.log('a la so le')
+            }
+            if (a >=0){
+                console.log(' a la so duong')
+            }else{
+                console.log('a la so am')
+            }
+            if (a ===0){ // so sanh ca gia tri va kieu du lieu
+                console.log('a la so khong')
+            }
+            return sochiahet
+        }
+        // goi ham
+        checkNumber(0)
+        sochiahet(-19)
+       
+    </script>
+</body>
+</html>

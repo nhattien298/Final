@@ -1,0 +1,5 @@
+nhattien	13	8.9
+tuelam	78	4.0
+tueman	20	7.0
+thimai	15	8.0
+hangxom	17	10.0

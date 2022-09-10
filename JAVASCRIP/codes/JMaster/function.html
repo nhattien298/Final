@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+    <script>
+        // ham trong javascript
+        /* hoc ham trong javascript*/
+        function tong(x,y){
+            var tong =x +y;
+            console.log(tong);
+            return tong;
+           
+        }
+
+        tong(10,5)
+        var kq = tong(3,6)
+        console.log('ket qua :'+ kq)
+        // kieu 2
+        var hieu = function(x,y){
+            return x-y;
+        }
+        console.log( typeof(hieu));
+        console.log(hieu(6,2))
+        var hamhieu= hieu;
+        var hamtong=tong;
+        console.log(hamtong(4,8))
+        console.log(hamhieu(9,3))
+
+        function couter(){
+            var i = 0;
+            i++;
+            console.log(i)
+        }
+        couter()
+    </script>
+</body>
+</html>

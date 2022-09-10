@@ -1,0 +1,57 @@
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    padding-right: 50px;
+}
+.nav-item{
+    display: inline-block;
+    list-style: none;
+    flex-direction: row;
+}
+
+.banner {
+    background-image: url("../images/lodging.png");
+    height: 400px;
+}
+.content{
+    padding-top: 150px;
+    margin-left: 60px;
+    color:white;
+}
+#article{
+    
+    background-color:#efefef;
+}
+h2{
+    font-weight: normal;
+}
+.col_img{
+    background-color: #efefef;
+    margin-bottom: 30px;
+}
+.col_img div img {
+    margin:5px;
+}
+
+@media only screen and (max-width: 992px){
+    .nav{
+        background-color:#556270;
+        width: 90%;
+        margin: auto;    
+    }
+    .banner{
+        background-image:none;
+        background-color: none;  
+    }
+    [class*=row]{
+        background-color: white;
+    }
+    #article{
+     background-color:white;}
+    .content{
+        color:black;
+        margin: auto;
+     }
+}   
+   

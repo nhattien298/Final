@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <title>Dropdown Menu jquery</title>
+    <style>
+        
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        li{
+            list-style: none;
+        }
+        ul.parent > li{
+            float:left;
+            width:20%;
+            text-align:center;
+            padding:10px;;
+            background:#747474;
+            color:white;
+            cursor:pointer;
+            border-right: 1px solid #959595;
+        }
+        ul.child {
+            display: none;
+            height:100% !important;
+            margin-top: 10px;
+        }   
+    </style>
+</head>
+<body>
+    <nav id="navigation">
+        <ul class="parent">
+            <li>item 1</li>
+            <li >item 2
+                <ul class="child">
+                    <li>item 2.1</li>
+                    <li>item 2.1</li>
+                    <li>item 2.3</li>
+                </ul>
+            </li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5
+                <ul class="child">
+                    <li>item 5.1</li>
+                    <li>item 5.1</li>
+                    <li>item 5.3</li>
+                </ul>
+            </li>
+        </ul>
+
+    </nav>
+    <script>
+        $(function(){
+            $('ul.parent >li').hover(function(){
+                $(this).find('ul.child').show(200);
+            },function(){
+                $(this).find('ul.child').hide(200);
+            });
+        });
+    </script>
+</body>
+</html>

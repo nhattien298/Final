@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+F:\FUNIX f\CSDL\LAB\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1070091696.index
+75931715.index
+3946796104.index

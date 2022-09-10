@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array </title>
+</head>
+<body>
+    <script>
+        var number = [1,22,4,5];
+        // console.log(number[number.length -1])
+        // var tong = 0;
+        // tong =number[0] +number[1] +number[2] +number[3];
+        // for (i=0; i<number.length; i++){
+        //     console.log(number[i]);
+        //     console.log(typeof(number[i]));
+        //     tong += number[i];   
+        // }
+        // console.log(tong)
+        number.sort( function compare(a,b){
+                            return a - b
+        });
+        for (i=0; i<number.length; i++){
+            console.log(number[i])
+        }
+        
+        console.log(number)
+        number.push(7);
+        console.log(number)
+        number.pop()
+        console.log(number)
+        var gopmang = number.concat([9,5,8])
+        console.log(gopmang)
+        gopmang.splice(0,2);
+        console.log(gopmang)
+    </script>
+</body>
+</html>

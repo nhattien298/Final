@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>delete table rows with jquery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1 class=" text-center m-5"> jquery delete table row on button click
+
+    </h1>
+    <div class="row">
+        <div class="col-12">
+            <table class="table">
+                <tr>
+                    <th>Id</th>
+                    <th>Product Name</th>
+                    <th>Desciption</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td><span>1</span></td>
+                    <td><strong class="pd-name">Moto G</strong></td>
+                    <td><p>Moto G next generation smart phone at price <span class="pd-price">50$</span></p></td>
+                    <td>
+                        <button class="btn btn-danger btnDelete">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>1</span></td>
+                    <td><strong class="pd-name">Nhattien</strong></td>
+                    <td><p>Moto G next generation smart phone at price <span class="pd-price">50$</span></p></td>
+                    <td>
+                        <button class="btn btn-danger btnDelete">Delete</button>
+                    </td>
+                </tr><tr>
+                    <td><span>1</span></td>
+                    <td><strong class="pd-name">Tue Lam</strong></td>
+                    <td><p>Moto G next generation smart phone at price <span class="pd-price">50$</span></p></td>
+                    <td>
+                        <button class="btn btn-danger btnDelete">Delete</button>
+                    </td>
+                </tr><tr>
+                    <td><span>1</span></td>
+                    <td><strong class="pd-name">Tue Man</strong></td>
+                    <td><p>Moto G next generation smart phone at price <span class="pd-price">50$</span></p></td>
+                    <td>
+                        <button class="btn btn-danger btnDelete">Delete</button>
+                    </td>
+                </tr><tr>
+                    <td><span>1</span></td>
+                    <td><strong class="pd-name">Thi Mai</strong></td>
+                    <td><p>Moto G next generation smart phone at price <span class="pd-price">50$</span></p></td>
+                    <td>
+                        <button class="btn btn-danger btnDelete">Delete</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('.btnDelete').on('click', function(){
+                $(this).closest('tr').remove();
+            });
+        });
+    </script>
+</body>
+</html>

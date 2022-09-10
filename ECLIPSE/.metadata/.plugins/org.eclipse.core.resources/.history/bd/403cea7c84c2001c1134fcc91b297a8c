@@ -1,0 +1,12 @@
+package vidu;
+
+
+
+public class Test {
+	public static void main(String[] args) {
+		SinhVien sv1 = new SinhVien(100, "nhattien", "tu hoc", 8.5);
+		SinhVien sv2 = new SinhVien(101, "Tue lam", "tu hoc", 5.2);
+		SinhVien sv3 = new SinhVien(102, "tueman", "tu hoc", 3.0);
+	}
+	
+}

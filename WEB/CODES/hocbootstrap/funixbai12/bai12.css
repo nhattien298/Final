@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.row{
+    text-align:center;
+    width:100%;
+    height:300px;
+ 
+}
+.header{
+    background:pink;
+    height:100px;
+}
+li{
+    background:blue;
+    margin:3px;
+    list-style-type: none;
+    color:red;
+    height:60px;
+}
+.picture{
+    background:green;
+}
+.footer{
+    background:greenyellow;
+    height:80px;
+}
